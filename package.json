@@ -16,6 +16,6 @@
   },
   "scripts": {
     "test": "echo NO TEST",
-    "posttest": "npm run publish"
+    "posttest": "npm publish"
   }
 }
