@@ -16,6 +16,6 @@
   },
   "scripts": {
     "test": "echo NO TEST",
-    "posttest": "npm publish"
+    "posttest": "npm publish --access=public"
   }
 }
