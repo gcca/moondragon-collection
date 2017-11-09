@@ -1,5 +1,5 @@
 {
-  "name": "moondragon-collection",
+  "name": "@moondragon/collection",
   "version": "0.0.0",
   "description": "Moondragon Ng components collection",
   "main": "lib/index.js",
@@ -13,5 +13,8 @@
   },
   "dependencies": {
     "@angular/core": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo NO TEST"
   }
 }
