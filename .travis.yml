@@ -1,8 +1,7 @@
 branches:
   only: master
 deploy:
-  api_key:
-    secure: NYbJAX8pTChMoxuSDF/w3kAJ6ywEfH0EDY7J0+wyZYU4vECe1D6JKyY4OqQ4r1nWDNnDYkWom3gkxhhoA9ofL2uoHY0FQV+VyWUMtuvWhsAJfBhL3L2mmi6ZgkLe8Enw+hqXormMo/8hvMshqSnw+pbHHVHxtX4OxhXuMmKc4dpGdbLep5rpDBtp+U25dbQFk3duXEaOouqnGouVW6RDBBQ/D8d/TWgBKl+P8A6Q11E6sURK+U+3TrHpQ8ZL7Tpl84aZAWfwJopLsnhQ7VqT8LPfaaoau4jl5rs8+Y/RIHxag+JMMTaMksFBHGHsPdhqD3prX8B8mHNx3XL2KlMuDVKqTS+JH9nBm1W6MV7bhPIoQ7au9/OaS1Jc/hIX2GvtqPYqYZtfLpsQ2viTVLvbjutlUdoUcBs4Vl/A1lzlUTK4cYycmvDpi/pUPIRaBeyJuxPE8uPzr3RJh5LIc5CwRl/d5sPmu1COa/b4qTZLWva3/lPnN6NhVdH+Ds5M5dPrmQu7yrrvbg3a5p2KrY6aNdy4P8zgxxZ6TOtlu5h8Is5ASLZ1RG7PMRYzgBBLVlYGhxGVm1NaPE8PgxfIC5DrF5M61+oC5DCoX2d4yWF+yTj0ilU+8vhmrzXU9X2INXaTAtgh3PS58n60VQmc4nQD/d03IAS7D7npU24J+73OmzI=
+  api_key: $API_KEY
   email: gcca.00@gmail.com
   provider: npm
   skip_cleanup: true
