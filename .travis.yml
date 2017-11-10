@@ -1,13 +1,11 @@
-branches:
-  only: master
 deploy:
   provider: npm
   email: gcca.00@gmail.com
   api_key:
     secure: qCGjpaP4ko32tuZOMoB4VjZUYfEJomtmihifXd5tgGcmUB7pl0pD6MKv7cxyLLZWb03J6O93+NeGUboLZnCvbE08AAuvn7c3i2Dl1L4TtkXK/znS5qJtjxBIDLO2g1YX6n61m1uu1G8P5DUABjoNJTVLTco9cxMn29GRQKMnZaVmda6l+TdAZewCluzIkFdOlE2F5N9FJOVyJb7AEGx17TJMNyAeZTa+8AZLLx1rtnyaY/RuAeOiDgu9udyq23vJR+9gbtwtzTluQrwtZ8qVypC+Qj4lfVv7u8zBatjSid70NNQEhGXeTsRJnwN8sLVLu0Q3mFp/L3ZViAKpPtvqU8UBwsySIjyWtrEwkJS1GQ1ZMIbU+33cX7X52nP7TJoPpbfzazi6AO39CHKQAzLuRYUSJtzr+PBmhB68lFTr+NaWkyN246gMwMXFPaadmSE45tDklQFlZTQpwJuD86llxmvZLXvs5r1Hzawznfr8kgtha8RJa97ekobXb0jembCm85fjSQfKcoTM6o1BItaJVojeMNDOA7dN/DWcHL1cKqszhU6r+Y0tKDnWrdV5YTL45MO1C7REvWUprYiiCvqAD34KQQSfNS8+q+/+GIseci2Fw0eVkEnhHx+3FfbzxNQK47HTUUkAleHP71p3wwBsmFZw59sZxtauSq10BR4uNVM=
   on:
-    branch: master
     repo: gcca/moondragon-collection
+    tags: true
 git:
   depth: 2
   lfs_skip_smudge: true
