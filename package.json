@@ -7,6 +7,9 @@
   "author": "moondragon <moon@dragon>",
   "license": "GPL-2.0",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "concurrently": "^3.5.0",
     "typescript": "^2.6.1"
@@ -16,6 +19,6 @@
   },
   "scripts": {
     "test": "echo NO TEST",
-    "posttest": "npm publish --access=public"
+    "posttest": "npm publish"
   }
 }
