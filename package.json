@@ -1,6 +1,6 @@
 {
   "name": "@moondragon/collection",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Moondragon Ng components collection",
   "main": "lib/index.js",
   "repository": "git@github.com:gcca/moondragon-collection.git",
