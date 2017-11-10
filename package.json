@@ -18,7 +18,6 @@
     "@angular/core": "^5.0.1"
   },
   "scripts": {
-    "test": "echo NO TEST",
-    "posttest": "npm publish"
+    "test": "echo NO TEST"
   }
 }
